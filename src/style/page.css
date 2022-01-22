@@ -1,0 +1,107 @@
+.page-container {
+  width: 100%;
+  min-height: 99%;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 25px 20px 20px;
+  box-sizing: border-box;
+}
+
+.page-container .query-bar {
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.page-container .query-bar .panel-wrap {
+  margin-bottom: 10px;
+}
+
+.page-container .query-bar .panel-wrap:not(:last-child) {
+  margin-right: 20px;
+}
+
+.page-container .query-bar .panel-wrap>span {
+  font-size: 15px;
+  white-space: nowrap;
+  margin-right: 10px;
+  color: #333;
+}
+
+.page-container .query-bar .panel-wrap .el-input__inner {
+  height: 35px;
+  line-height: 35px;
+}
+
+.page-container .query-bar .panel-wrap .el-input__icon {
+  line-height: 35px;
+}
+
+.page-container .opt-bar {
+  display: flex;
+  align-items: center;
+}
+
+.page-container .pi-table {
+  width: 100%;
+  border: 1px solid #bdbdbd !important;
+  border-radius: 5px !important;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+
+.pi-table.el-table .table-header th {
+  background: #f5f7fa;
+}
+
+.pi-table.el-table .cell {
+  line-height: 25px !important;
+  font-size: 15px;
+}
+
+.pi-table .opt-icon {
+  width: 17px;
+  height: auto;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.pi-table .opt-icon:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.page-container .el-pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pi-dialog .el-dialog,
+.el-pager li {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.pi-dialog .el-dialog__header {
+  font-size: 17px;
+  height: 55px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  background-color: #f0f2f5;
+  color: #666666;
+  padding: 0 0 0 20px !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.pi-dialog .el-dialog__footer {
+  height: 55px;
+  line-height: 55px;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 !important;
+  padding-right: 20px !important;
+}
