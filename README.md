@@ -34,3 +34,4 @@ npm run serve
 npm run build
 ```
 
+鸣谢vue、elementui、vue-element-admin、axios、mock、tinymce
