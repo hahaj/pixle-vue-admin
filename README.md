@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# project
-=======
 # pixle-vue-admin
+
 pixle-vue-admin基于vue2、element-ui搭建，提供一套轻量级ui定制简约便捷的后台管理系统，方便快速搭建页面和扩展。
 
 集成登录模块，动态路由（菜单），用户管理，角色管理，菜单管理，个人中心 
@@ -21,8 +19,6 @@ pixle-vue-admin基于vue2、element-ui搭建，提供一套轻量级ui定制简�
 mock数据模拟
 
 
->>>>>>> e59f2d53512fbc281392be50a615e3d91b3f355b
-
 ## Project setup
 ```
 npm install
@@ -38,10 +34,3 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
