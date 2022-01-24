@@ -7,7 +7,9 @@ import store from "@/store";
 
 // eslint-disable-next-line no-unused-vars
 router.beforeEach(async (to, from, next) => {
+
   if (to.path == "/login" || to.path == "/404") {
+    document.title = to.meta.title || '';
     next();
   } else if (!store.getters.token) {
     //未登录
@@ -15,7 +17,7 @@ router.beforeEach(async (to, from, next) => {
       path: "/login",
       replace: true,
     });
-  
+
   } else if (!store.getters.is_login) {
     await store.dispatch("user/getUserInfo"); //获取用户信息
     await setAsyncRouter(); //设置动态路由

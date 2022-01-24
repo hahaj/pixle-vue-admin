@@ -18,10 +18,16 @@ export const defaultRoutes = [{
   name: "Login",
   component: () => import("../views/login"),
   hidden: true,
+  meta: {
+    title: "登录",
+  },
 },
 
 {
   path: "/404",
+  meta: {
+    title: "404",
+  },
   name: "Error",
   component: () => import("../views/error/404"),
   hidden: true,
