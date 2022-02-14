@@ -1,4 +1,4 @@
-# pixle-vue-admin
+﻿# pixle-vue-admin
 
 pixle-vue-admin基于vue2、element-ui搭建，提供一套轻量级ui定制简约便捷的后台管理系统，方便快速搭建页面和扩展。
 
@@ -33,5 +33,13 @@ npm run serve
 ```
 npm run build
 ```
+
+
+demo:[https://vue.pixle.cn](https://vue.pixle.cn)
+
+
+
+
+
 
 鸣谢vue、elementui、vue-element-admin、axios、mock、tinymce
